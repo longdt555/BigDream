@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #868686;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #868686;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.hyper-link:hover,
+.hyper-link:active,
+.hyper-link:focus {
+    color: #f5593d;
+}
+
+.item .info {
+    padding: 10px 0;
+}
+
+
+/*back to top*/
+
+#myBtn {
+    height: 45px;
+    display: none;
+    width: 45px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #848484;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    opacity: 0.5;
+}
+
+#myBtn:hover {
+    opacity: 1;
+}
